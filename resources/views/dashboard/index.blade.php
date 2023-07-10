@@ -1,4 +1,4 @@
-@extends('hrdlive.layouts.template')
+@extends('vendor.coreSdi.layouts.template')
 
 @section('body')
     <div class="page-body">

@@ -27,26 +27,26 @@
   </head>
   <body>
     <!-- sweet alert -->
-    {{-- @include('hrdlive.layouts.partials.sweetalert-flashdata') --}}
+    {{-- @include('vendor.coreSdi.layouts.partials.sweetalert-flashdata') --}}
     <!-- sweet alert end -->
 
     <!-- Loader starts-->
-    @include('hrdlive.layouts.partials.loader')
+    @include('vendor.coreSdi.layouts.partials.loader')
     <!-- Loader ends-->
     <!-- page-wrapper Start-->
     <div class="page-wrapper" id="pageWrapper">
       <!-- Page Header Start-->
-      @include('hrdlive.layouts.header')
+      @include('vendor.coreSdi.layouts.header')
       <!-- Page Header Ends                              -->
       <!-- Page Body Start-->
       <div class="page-body-wrapper horizontal-menu">
         <!-- Page Sidebar Start-->
-        @include('hrdlive.layouts.side-menu')
+        @include('vendor.coreSdi.layouts.side-menu')
         <!-- Page Sidebar Ends-->
         <br />
         @yield('body')
         <!-- footer start-->
-        {{-- @include('hrdlive.layouts.footer') --}}
+        {{-- @include('vendor.coreSdi.layouts.footer') --}}
       </div>
     </div>
     <!-- latest jquery-->

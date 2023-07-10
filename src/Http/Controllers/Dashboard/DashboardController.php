@@ -12,7 +12,7 @@ class DashboardController extends Controller
 
         $title = "DigiForSDI | Dashboard";
 
-        return view('vendor.coresdi.index',compact('title'));
+        return view('vendor.coreSdi.dashboard.index',compact('title'));
     }
 
 }
