@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/coreSdi/assets/css/roboto.css"/>
 
     <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/coreSdi/assets/css/responsive.css">
     
   </head>
   <body>
@@ -59,7 +59,7 @@
 
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
-    <script src="/assets/js/script.js"></script>
+    <script src="/coreSdi/assets/js/script.js"></script>
     <!-- login js-->
     <!-- Plugin used-->
     

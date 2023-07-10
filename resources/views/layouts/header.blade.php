@@ -1,8 +1,8 @@
 <div class="page-main-header" style="background-color: #007AFF; height: 50px">
     <div class="main-header-right row m-0">
       <div class="main-header-left">
-        <div class="logo-wrapper logo-headermenu-digi"><a href="index.html"><img class="img-fluid" src="/local_assets/img/header/Logo-white.png" alt="logo"></a></div>
-        <div class="dark-logo-wrapper"><a href="index.html"><img class="img-fluid" src="{{asset('/local_assets/img/header/Logo-white.png')}}" alt="logo"></a></div>
+        <div class="logo-wrapper logo-headermenu-digi"><a href="index.html"><img class="img-fluid" src="/coreSdi/local_assets/img/header/Logo-white.png" alt="logo"></a></div>
+        <div class="dark-logo-wrapper"><a href="index.html"><img class="img-fluid" src="{{asset('coreSdi/local_assets/img/header/Logo-white.png')}}" alt="logo"></a></div>
         {{-- <div class="toggle-sidebar"><i class="status_toggle middle" data-feather="align-center" id="sidebar-toggle"></i></div> --}}
       </div>
       <div class="nav-right col pull-right right-menu p-0">
@@ -47,7 +47,7 @@
             </ul>
           </li>
             <li class="onhover-dropdown">
-              <div class="notification-box text-center"><img class="img-20 rounded-circle" src="/assets/images/dashboard/1.png" alt=""><span class="text-white"> {{ $name }}</span></div>
+              <div class="notification-box text-center"><img class="img-20 rounded-circle" src="/coreSdi/assets/images/dashboard/1.png" alt=""><span class="text-white"> {{ $name }}</span></div>
               <ul class="notification-dropdown onhover-show-div">
                 <li class="noti-primary add-to-bookmark text-center"><a class="btn btn-primary" type="button" href="{{ route('logout') }}"> Log out <i data-feather="log-out"></i></a></li>
                   

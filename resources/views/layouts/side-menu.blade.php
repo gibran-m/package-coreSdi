@@ -7,7 +7,7 @@
       {{-- <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div> --}}
       <div id="mainnav">    
         <div class="text-center">
-          <img class="logo-sidemenu-digi" src="/local_assets/img/side-menu/logo.png" alt="logo">
+          <img class="logo-sidemenu-digi" src="/coreSdi/local_assets/img/side-menu/logo.png" alt="logo">
         </div>       
         <ul class="nav-menu custom-scrollbar">
           <li class="back-btn">
