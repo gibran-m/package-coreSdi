@@ -6,8 +6,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bjbs\\CoreSdi\\": "src/",
-            "Bjbs\\CoreSdi\\Http\\Controllers\\": "src/Http/Controllers"
+            "Bjbs\\Coresdi\\": "src/",
+            "Bjbs\\Coresdi\\Http\\Controllers\\": "src/Http/Controllers"
         }
     },
     "authors": [
