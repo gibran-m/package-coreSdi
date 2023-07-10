@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bjbs\\CoreSdi\\src\\CoreSdiServiceProvider"
+                "Bjbs\\CoreSdi\\CoreSdiServiceProvider"
             ]
         }
     },

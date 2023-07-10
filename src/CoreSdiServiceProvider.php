@@ -1,6 +1,6 @@
 <?php
 
-namespace bjbs\coresdi;
+namespace Bjbs\CoreSdi;
 
 use Illuminate\Support\ServiceProvider;
 
