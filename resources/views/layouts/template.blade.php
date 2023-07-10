@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="/assets/css/puk/bootstrap-icon.css">
 
     <!-- App css-->
-    <link rel="stylesheet" href="/assets/css/core_sdi/color-31.css" media="screen" id="color" >
-    <link rel="stylesheet" href="/assets/css/core_sdi/style2.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/core_sdi/data-table.css" />
-    <link rel="stylesheet" href="/assets/css/core_sdi/roboto.css"/>
+    <link rel="stylesheet" href="/core_sdi/assets/css/color-31.css" media="screen" id="color" >
+    <link rel="stylesheet" href="/core_sdi/assets/css/style2.css" type="text/css">
+    <link rel="stylesheet" href="/core_sdi/assets/css/data-table.css" />
+    <link rel="stylesheet" href="/core_sdi/assets/css/roboto.css"/>
 
     <!-- Responsive css-->
     <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
@@ -50,10 +50,10 @@
       </div>
     </div>
     <!-- latest jquery-->
-    <script src="/assets/js/core_sdi/jquery-3.5.1.min.js"></script>
-    <script src="/assets/js/core_sdi/sidebar-menu.js"></script>
-    <script src="/assets/js/core_sdi/bootstrap5.js"></script>
-    <script src="/assets/js/core_sdi/data-table.js"></script>
+    <script src="/core_sdi/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/core_sdi/assets/js/sidebar-menu.js"></script>
+    <script src="/core_sdi/assets/js/bootstrap5.js"></script>
+    <script src="/core_sdi/assets/js/data-table.js"></script>
     
 
 
