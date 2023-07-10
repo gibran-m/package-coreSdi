@@ -1,6 +1,6 @@
 <?php
 
-namespace bjbs\CoreSdi\Http\Controllers;
+namespace Bjbs\Coresdi\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
