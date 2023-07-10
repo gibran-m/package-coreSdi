@@ -1,13 +1,13 @@
 {
     "name": "bjbs/coresdi",
-    "description": "laravel custom login package",
+    "description": "laravel custom core sdi package",
     "type": "library",
     "version": "1.8",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bjbs\\Logindigiforsdi\\": "src/",
-            "Bjbs\\Logindigiforsdi\\Http\\Controllers\\": "src/Http/Controllers"
+            "Bjbs\\coreSdi\\": "src/",
+            "Bjbs\\coreSdi\\Http\\Controllers\\": "src/Http/Controllers"
         }
     },
     "authors": [

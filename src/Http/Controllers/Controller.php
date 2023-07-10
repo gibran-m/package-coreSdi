@@ -1,6 +1,6 @@
 <?php
 
-namespace Smpl\Logindigiforsdi\Http\Controllers;
+namespace bjbs\CoreSdi\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
