@@ -6,8 +6,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bjbs\\coreSdi\\": "src/",
-            "Bjbs\\coreSdi\\Http\\Controllers\\": "src/Http/Controllers"
+            "Bjbs\\CoreSdi\\": "src/",
+            "Bjbs\\CoreSdi\\Http\\Controllers\\": "src/Http/Controllers"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bjbs\\Coresdi\\CoreSdiServiceProvider"
+                "Bjbs\\CoreSdi\\CoreSdiServiceProvider"
             ]
         }
     },

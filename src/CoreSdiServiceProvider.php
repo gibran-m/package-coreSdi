@@ -13,7 +13,7 @@ class CoreSdiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('bjbs\CoreSdi\Http\Controllers\Dashboard\DashboardController');
+        $this->app->make('bjbs\Coresdi\Http\Controllers\Dashboard\DashboardController');
     }
 
     /**

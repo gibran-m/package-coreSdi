@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use Bjbs\CoreSdi\Http\Controllers\Dashboard\DashboardController;
+use Bjbs\Coresdi\Http\Controllers\Dashboard\DashboardController;
 
 
 

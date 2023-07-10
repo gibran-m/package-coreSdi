@@ -1,6 +1,6 @@
 <?php
 
-namespace Bjbs\CoreSdi\http\Controllers\Dashboard;
+namespace Bjbs\CoreSdi\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

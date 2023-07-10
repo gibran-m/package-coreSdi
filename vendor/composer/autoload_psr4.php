@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Bjbs\\coreSdi\\Http\\Controllers\\' => array($baseDir . '/src/Http/Controllers'),
-    'Bjbs\\coreSdi\\' => array($baseDir . '/src'),
+    'Bjbs\\CoreSdi\\Http\\Controllers\\' => array($baseDir . '/src/Http/Controllers'),
+    'Bjbs\\CoreSdi\\' => array($baseDir . '/src'),
 );

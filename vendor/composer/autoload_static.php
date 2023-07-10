@@ -9,17 +9,17 @@ class ComposerStaticInitfd5a3ebbb2830335060c0901f88c787b
     public static $prefixLengthsPsr4 = array (
         'B' => 
         array (
-            'Bjbs\\coreSdi\\Http\\Controllers\\' => 30,
-            'Bjbs\\coreSdi\\' => 13,
+            'Bjbs\\CoreSdi\\Http\\Controllers\\' => 30,
+            'Bjbs\\CoreSdi\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Bjbs\\coreSdi\\Http\\Controllers\\' => 
+        'Bjbs\\CoreSdi\\Http\\Controllers\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Http/Controllers',
         ),
-        'Bjbs\\coreSdi\\' => 
+        'Bjbs\\CoreSdi\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
