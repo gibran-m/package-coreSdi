@@ -1,0 +1,29 @@
+{
+    "name": "smpl/coresdi",
+    "description": "laravel custom login package",
+    "type": "library",
+    "version": "1.8",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smpl\\Logindigiforsdi\\": "src/",
+            "Smpl\\Logindigiforsdi\\Http\\Controllers\\": "src/Http/Controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "gibran-m",
+            "email": "gibramuh@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smpl\\CoreSdi\\CoreSdiServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

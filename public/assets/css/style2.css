@@ -1,0 +1,345 @@
+
+
+
+.bg-white-digi {
+    background-color: #fff !important;
+    color: #fff; }
+
+
+
+
+.navbar-digi{
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+
+.navbar-digi .navbar-brand .navbar-img-digi {
+    width: 90px;
+    margin-left: 50px;
+    margin-right: 0px;
+    height: auto;
+}
+
+.navbar-digi .navbar-nav {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.navbar-digi .navbar-brand:hover,
+.navbar-digi .navbar-brand:focus {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-digi .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+}
+.navbar-digi .navbar-nav .nav-link:hover,
+.navbar-digi .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.7);
+}
+.navbar-digi .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-digi .navbar-nav .show > .nav-link,
+.navbar-digi .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-digi .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-digi .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-digi .navbar-text {
+    color: rgba(0, 0, 0, 0.55);
+}
+.navbar-digi .navbar-text a,
+.navbar-digi .navbar-text a:hover,
+.navbar-digi .navbar-text a:focus {
+    color: rgba(0, 0, 0, 0.9);
+}
+    
+
+
+
+
+/**=====================
+     1. login & lupa password css
+==========================**/
+
+.container-login-bg {
+    margin-top: 30%;
+    margin-left: 45%;
+}
+
+.login-vector {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 30%;
+    height: auto;
+}
+
+.login-round-top {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 45%;
+    height: auto;
+}
+
+.login-round-top-right {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 45%;
+    height: auto;
+}
+
+.login-round-bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 25%;
+    height: auto;
+}
+
+.login-round-bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 700px;
+    height: auto;
+    /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+}
+
+.login-bjbs-logo {
+    display: block;
+    /* margin: auto; */
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    width: 126px;
+    height: auto;
+}
+
+.bg-center {
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 362px;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .container-login-bg {
+        margin: 0;
+    }
+}
+
+/**=====================
+    end of login & lupa password css
+==========================**/
+
+/**=====================
+   2. Side Menu CSS
+==========================**/
+
+.logo-sidemenu-digi {
+    /* display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px; */
+
+    width: 200px;
+    height: auto;
+    left: 25px;
+    top: 0px;
+}
+
+.logo-headermenu-digi {
+    /* display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px; */
+
+    width: 150px;
+    height: auto;
+}
+
+/**=====================
+   3. menu content css
+==========================**/
+
+.btn-header-digi {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-form-digi {
+    position: absolute;
+    right: 192px;
+    bottom: 25px;
+}
+
+.size-14-digi {
+    width: 16x;
+    height: 16px;
+    padding-top: 5px;
+}
+
+.size-20-digi {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /*   */
+}
+
+.size-28-digi {
+    width: 24px;
+    height: 24px;
+}
+
+.size-38-digi {
+    width: 38px;
+    height: 38px;
+}
+
+.size-48-digi {
+    width: 48px;
+    height: 48px;
+    padding-bottom: 2px;
+}
+
+
+
+/**=====================
+   3. form content css
+==========================**/
+
+.star-digi {
+    color: red;
+}
+
+/* design upload file */
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+        background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+        background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    border: 1px solid #92b0b3;
+}
+.files {
+    position: relative;
+}
+.files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1250/1250649.png?w=1380&t=st=1686086016~exp=1686086616~hmac=566fa8fdfa7e67d9cb80a2bb051298f293323116178ad7625901ca8c0bce2713);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input {
+    background-color: #92b0b3;
+}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #92b0b3;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* end of design */
+
+
+
+/**=====================
+   4. dashboard content css
+==========================**/
+
+.small-chart-widget-digi .chart-container {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  border: none; }
+
+.small-chart-widget-digi .card .card-body {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; }
+
+.medium-chart-widget-digi .chart-container {
+  height: 200px;
+  width: 1px;
+  padding: 0;
+  margin: 0;
+  border: none; }
+
+.medium-chart-widget-digi .card .card-body {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; }
+
+.big-chart-widget-digi .chart-container {
+  height: 600px;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  border: none; }
+
+.big-chart-widget-digi .card .card-body {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; }
+
+.italicize {
+    font-style: italic;
+}
+
+
+.active-paging {
+    background-color: #8e8b8b;
+    color: white;
+}
+
+
+.body-digi{
+    margin: 20px 50px 20px 50px;
+}
