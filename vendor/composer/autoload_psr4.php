@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Smpl\\CoreSdi\\' => array($baseDir . '/src'),
+    'Bjbs\\CoreSdi\\' => array($baseDir . '/src'),
 );
