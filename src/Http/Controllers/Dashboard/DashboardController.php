@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class DashboardController extends Controller
 {
     public function hrdlive(){
+        dd("yaya");
 
         $title = "DigiForSDI | Dashboard";
 
