@@ -14,6 +14,13 @@ class CoreSdiServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Bjbs\Coresdi\Http\Controllers\Dashboard\DashboardController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\CorporateTitleController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\JabatanController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\PangkatController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\PendidikanController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\UnitKerjaController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\Pegawai\DaftarPegawaiController');
+        $this->app->make('Bjbs\Coresdi\Http\Controllers\MasterData\Pegawai\VerifikasiController');
     }
 
     /**

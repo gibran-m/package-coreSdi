@@ -21,7 +21,7 @@ class UnitKerjaController extends Controller
     public function index(){
         $title = "DigiForSDI | Unit Kerja";
 
-        return view('hrdlive.master-data.unit-kerja.index',compact('title'));
+        return view('vendor.coreSdi.master-data.unit-kerja.index',compact('title'));
     }
 
     public function add(){
@@ -40,7 +40,7 @@ class UnitKerjaController extends Controller
         $getFromApi = $this->api->get($url, $param);
         $jenisUKs = $getFromApi['data'];
 
-        return view('hrdlive.master-data.unit-kerja.add',compact('title', 'new_index', 'kantors', 'jenisUKs'));
+        return view('vendor.coreSdi.master-data.unit-kerja.add',compact('title', 'new_index', 'kantors', 'jenisUKs'));
     }
 
     public function create(Request $request){
@@ -115,7 +115,7 @@ class UnitKerjaController extends Controller
         $jenisUKs = $getFromApi['data'];
 
         // dd($datas);
-        return view('hrdlive.master-data.unit-kerja.edit',compact('title', 'datas', 'kantors', 'jenisUKs'));
+        return view('vendor.coreSdi.master-data.unit-kerja.edit',compact('title', 'datas', 'kantors', 'jenisUKs'));
     }
 
     public function update(Request $request, $id){
